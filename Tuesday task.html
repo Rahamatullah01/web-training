@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>Salutation</label> <br>
+            <select>
+                <option value="--None--">--None--</option>
+                <option value="--Mr--">--Mr--</option>
+                <option value="--Mrs--">--Mrs--</option>
+                <option value="--Miss--">--Miss--</option>
+            </select>
+            <br>
+            <br>
+            
+            <label for="firstname">First name:</label> 
+            <input type="text" id="firstname"> <br><br>
+            <label for="lastname">Last name:</label> 
+            <input type="text" id="lastname"> <br> <br>
+
+            <label>Gender: </label>
+            <input type="radio" name="maleorfemale">
+            <label>Male</label>
+            <input type="radio" name="maleorfemale">
+            <label>Female</label>
+            <br>
+            <br>
+
+            <label>Email:</label>
+            <input type="email">
+            <br>
+            <br>
+             <label>Date of Birth:</label> <input type="date" name="day">
+             <br>
+             <br>
+           <label> Address: </label><br>
+            <textarea rows="3" cols="30"></textarea>
+            <br>
+            <br>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    <br>
+    <br>
+    <form>
+        <h1>My feedback form</h1>
+    <ul>
+        <li>Name: <input type="text"></li>
+        <li>Email: <input type="email"></li>
+        <li>Password: <input type="password"></li>
+    <br>
+    <br>
+    <li>Please check all the emotions that apply to you:</li>
+    <ul type="disc">
+        <li>Angry <input type="checkbox"></li>
+        <li>Sad <input type="checkbox"></li>
+        <li>Happy <input type="checkbox"></li>
+        <li>Ambivalent <input type="checkbox"></li>
+    </ul>
+    <li>How Satisfied were you with our service?</li>
+    <ul type="disc">
+        <li>Very satified <input type="radio"></li>
+        <li>Satisfied <input type="radio"></li>
+        <li>Didn't care <input type="radio"></li>
+        <li>Dissatisfied</li>
+        <li>Very Dissatisfied</li>
+    </ul>
+    </ul>
+    </form>
+
+    <form>
+        <ul>
+            <li>Further comments: <textarea rows="3" cols="30"></textarea></li>
+        </ul>
+    </form>
+
+    <form>
+        <ul>
+            
+            <li>
+                Bio photo:
+                <input type="file" name="photo">
+            </li>
+
+            <li>
+                Location visited:
+                <select>
+                    <option>Select location</option>
+                    <option>Lagos</option>
+                    <option>Abuja</option>
+                    <option>Ibadan</option>
+                    <option>Ogun</option>
+                </select>
+            </li>
+        </ul>
+    <input type="submit" value="submit">
+
+    </form>
+
+   <br><br>
+    <form>
+         <p>Please enter your membership details:</p>
+
+    <form>
+
+        <table>
+            <tr>
+                <td>First Name:</td>
+                <td>
+                    <input type="text" name="firstname" value="Sea">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Last Name:</td>
+                <td>
+                    <input type="text" name="lastname" value="Lyon">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Email address:</td>
+                <td>
+                    <input type="email" name="email" value="slyon@zoo.com">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Payment Method:</td>
+                <td>
+                    <input type="radio" name="payment"> Cash
+                    <input type="radio" name="payment" checked> Cheque
+                    <input type="radio" name="payment"> Credit
+                </td>
+            </tr>
+
+            <tr>
+                <td>Communication Preferences:</td>
+                <td>
+                    <input type="checkbox" name="email"> Email
+                    <input type="checkbox" name="newsletter" checked> Newsletter
+                    <input type="checkbox" name="phone"> Phone
+                </td>
+            </tr>
+
+            <tr>
+                <td>Membership Type</td>
+                <td>
+                    <select>
+                        <option selected>Full</option>
+                        <option>Student</option>
+                        <option>Associate</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">Comments:</td>
+                <td>
+                    <textarea rows="5" cols="30">
+Am looking forward to seeing you
+at the next club meeting
+                    </textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Display">
+                </td>
+            </tr>
+        </table>
+
+    </form>
+
+    <form>
+        <fieldset>
+        <legend>Login details</legend>
+
+        <table>
+            <tr>
+                <td> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name:</td>
+                <td><input type="text" name="name"></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:</td>
+                <td><input type="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Your feedback</legend>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please check all the emotions that apply to you:</p>
+        
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angry</label>
+        <input type="checkbox" name="angry">
+        <br><br>
+
+        
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sad</label>
+        <input type="checkbox" name="sad">
+        <br><br>
+        
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Happy</label>
+        <input type="checkbox" name="happy">
+        <br><br>
+        
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ambivalent</label>
+        <input type="checkbox" name="ambivalent">
+        
+
+        <br><br>
+
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;How satisfied were you with our service?</p>
+
+        
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Very satisfied</label>
+        <input type="radio" name="satisfaction" value="very_satisfied">
+        <br>
+
+        
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Satisfied</label>
+        <input type="radio" name="satisfaction" value="satisfied">
+        <br>
+
+        
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Neither</label>
+        <input type="radio" name="satisfaction" value="neutral">
+        <br>
+
+        
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dissatisfied</label>
+        <input type="radio" name="satisfaction" value="dissatisfied"><br>
+
+        
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Very dissatisfied</label>
+        <input type="radio" name="satisfaction" value="very_dissatisfied">
+        
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </fieldset>
+
+    </form>
+</body>
+</html>

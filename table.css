@@ -1,0 +1,19 @@
+h3 {
+    color: rgb(244, 33, 33);
+}
+
+table {
+    border: 1px;
+    width: 100%;
+    text-align: left;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.header-row th {
+    background-color: gray;
+}
