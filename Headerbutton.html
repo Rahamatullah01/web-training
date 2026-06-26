@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button</title>
+
+    <style>
+        body {
+            background-color: lightblue;
+        }
+
+        table {
+            width: 100%;
+           border-spacing: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        .header, .footer, .navigation {
+            padding: 10px;
+        }
+        .header, .footer {
+            background-color: teal;
+        }
+
+        .navigation {
+            background-color: rgb(63, 181, 63);
+        }
+
+        .aside {
+            background-color: lightgreen;
+        }
+
+        .content {
+            background-color: rgb(3, 138, 184);
+            padding: 30px;
+        }
+
+        .section {
+            background-color: royalblue;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+           <td colspan="2" class="header">Header</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="navigation">Navigation</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2" class="aside">Aside</td>
+            <td class="content">Content</td>
+        </tr>
+
+        <tr>
+            <td class="section">Section</td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="footer">Footer</td>
+        </tr>
+    </table>
+</body>
+</html>
